@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/checkboxes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="10sp"
+        android:text="@string/checkboxes_and_etc"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/chocolate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/chocolate_syrup"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/sprinkles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/sprinkles"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/crushed_nuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/crushed_nuts"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cherries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/cherries"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/orio_cookie_crumbles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/orio_cookie_crumbles"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/showToast"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/show_toast"
+        android:textSize="20sp"
+        android:onClick="onSubmit"/>
+
+</LinearLayout>

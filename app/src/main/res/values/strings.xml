@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Practical4.2_homework</string>
+    <string name="checkboxes_and_etc">Checkboxes_and_etc</string>
+    <string name="show_toast">SHOW TOAST</string>
+    <string name="orio_cookie_crumbles">Orio cookie crumbles</string>
+    <string name="cherries">Cherries</string>
+    <string name="crushed_nuts">Crushed nuts</string>
+    <string name="sprinkles">Sprinkles</string>
+    <string name="chocolate_syrup">Chocolate syrup</string>
+    <string name="toppings_label">Toppings: </string>
+</resources>
